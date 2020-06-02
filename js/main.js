@@ -50,7 +50,7 @@ btn.addEventListener("click",function(){
     };
     
     OurRequest.send();
-    pageCounter++;
+    pageCounter ++ ;
     if (pageCounter > 3 ){
         btn.classList.add("hide-me");
     }
