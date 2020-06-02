@@ -46,7 +46,7 @@ btn.addEventListener("click",function(){
     };
 
     OurRequest.onerror = function(){
-        console.log("Whooops! connection error");
+        alert("Whooops! connection error");
     };
     
     OurRequest.send();
